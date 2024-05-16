@@ -1,130 +1,116 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="id">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1561.61">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick a Box</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333333;
+        }
+        header {
+            background-color: #0478A4;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 18px;
+        }
+        nav {
+            background-color: #DF916F;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #0478A4;
+            border-bottom: 2px solid #DF916F;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin-bottom: 10px;
+        }
+        .portfolio-item {
+            border: 1px solid #DF916F;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #0478A4;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="id"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Pick a Box&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-family: Arial, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: #ffffff;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #333333;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>header {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: #0478A4;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #ffffff;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>header h1 {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 36px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>header p {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 5px 0 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 18px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>nav {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: #DF916F;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px 0;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>nav a {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #ffffff;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: none;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 15px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 16px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.container {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.section {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 40px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.section h2 {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #0478A4;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-bottom: 2px solid #DF916F;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding-bottom: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.contact-info {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>list-style: none;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 0;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.contact-info li {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.portfolio-item {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid #DF916F;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>footer {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: #0478A4;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #ffffff;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>position: fixed;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>bottom: 0;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1&gt;Pick a Box&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Get the ideal and optimal box for you&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;nav&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#about"&gt;Tentang Kami&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#portfolio"&gt;Portofolio&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#contact"&gt;Kontak&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/nav&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="about" class="section"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Tentang Kami&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Pick a Box adalah penyedia kemasan terbaik yang menawarkan solusi ideal dan optimal untuk semua kebutuhan pengemasan Anda. Kami melayani berbagai jenis kemasan dengan desain yang menarik dan berkualitas tinggi.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="portfolio" class="section"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Portofolio&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="portfolio-item"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3&gt;Produk 1&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;Deskripsi singkat tentang produk kemasan ini.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="portfolio-item"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3&gt;Produk 2&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;Deskripsi singkat tentang produk kemasan ini.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Tambahkan lebih banyak item portofolio di sini --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="contact" class="section"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Kontak Kami&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;ul class="contact-info"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Telepon: 085156297042&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Facebook: &lt;a href="https://www.facebook.com/Pick-a-Box" target="_blank"&gt;Pick a Box&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Instagram: &lt;a href="https://www.instagram.com/pickbox.id" target="_blank"&gt;@pickbox.id&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&amp;copy; 2024 Pick a Box. All rights reserved.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+    <header>
+        <h1>Pick a Box</h1>
+        <p>Get the ideal and optimal box for you</p>
+    </header>
+    <nav>
+        <a href="#about">Tentang Kami</a>
+        <a href="#portfolio">Portofolio</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>Tentang Kami</h2>
+            <p>Pick a Box adalah penyedia kemasan terbaik yang menawarkan solusi ideal dan optimal untuk semua kebutuhan pengemasan Anda. Kami melayani berbagai jenis kemasan dengan desain yang menarik dan berkualitas tinggi.</p>
+        </section>
+        <section id="portfolio" class="section">
+            <h2>Portofolio</h2>
+            <div class="portfolio-item">
+                <h3>Produk 1</h3>
+                <p>Deskripsi singkat tentang produk kemasan ini.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Produk 2</h3>
+                <p>Deskripsi singkat tentang produk kemasan ini.</p>
+            </div>
+            <!-- Tambahkan lebih banyak item portofolio di sini -->
+        </section>
+        <section id="contact" class="section">
+            <h2>Kontak Kami</h2>
+            <ul class="contact-info">
+                <li>Telepon: 085156297042</li>
+                <li>Facebook: <a href="https://www.facebook.com/Pick-a-Box" target="_blank">Pick a Box</a></li>
+                <li>Instagram: <a href="https://www.instagram.com/pickbox.id" target="_blank">@pickbox.id</a></li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Pick a Box. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+
